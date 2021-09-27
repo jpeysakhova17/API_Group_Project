@@ -1,0 +1,48 @@
+.RecipeSearchForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-family: "Cinzel", serif;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-family: "Cinzel", serif;
+  align-items: center;
+}
+
+.label {
+  margin-right: 5px;
+  /* margin-left: 10px; */
+  margin-left: 47px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#select {
+  margin-left: 5px;
+  font-family: "Cinzel", serif;
+  /* margin-bottom: 10px; */
+  align-items: center;
+}
+
+.searchButton {
+  font-family: "Cinzel", serif;
+  margin-left: 70px;
+  justify-content: center;
+  width: 90px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .RecipeSearchForm {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* media screen not responsive */

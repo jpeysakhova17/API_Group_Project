@@ -1,0 +1,44 @@
+.recipe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 70%;
+  margin-bottom: -35%;
+  border: 10px groove lightgray;
+  width: 350px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+.favoritesButton {
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
+}
+
+.recipes {
+  color: lightslategrey;
+}
+
+.link {
+  color: lightslategrey;
+}
+
+.image {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .recipe {
+    margin-top: 35%;
+    margin-bottom: -25%;
+    width: 500px;
+  }
+}

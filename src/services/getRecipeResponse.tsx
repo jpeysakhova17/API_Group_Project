@@ -9,6 +9,7 @@ export default function getRecipeResponse(
   searchParams: SearchParams
 ): Promise<RecipeSearchResponseInterface> {
   const diet = searchParams.diet || undefined;
+  const mealType = searchParams.mealType || undefined;
   return axios
     .get("https://api.edamam.com/api/recipes/v2", {
       params: {
@@ -17,6 +18,7 @@ export default function getRecipeResponse(
         app_id: process.env.REACT_APP_APP_ID,
         app_key: process.env.REACT_APP_APP_KEY,
         diet: diet,
+        mealType: mealType,
       },
     })
     .then((response) => {
